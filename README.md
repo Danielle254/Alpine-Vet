@@ -12,6 +12,7 @@ Also see screenshots in Original Screenshots folder
 *Does not follow semantic HTML, so not very accessible
 *Outdated layout
 *Mobile is a mix of center-aligned and right-aligned
+*Banner image slideshow
 
 ###Skills Showcased
 *HTML
