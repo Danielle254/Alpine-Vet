@@ -13,6 +13,7 @@ Also see screenshots in Original Screenshots folder
 *Outdated layout
 *Mobile is a mix of center-aligned and right-aligned
 *Banner image slideshow
+*Contact info is not linked
 
 ###Skills Showcased
 *HTML
