@@ -4,30 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpine Vet Care</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <header>
-        <div>
-            <!-- green bar top of screen-->
-        </div>
-        <div>
-            <!--light green container-->
+        
+        <div class="top-banner flex-container">
+            <!--top banner-->
             <img src="./images/alpineveterinarycare.png"/> <!--logo-->
-            <p>We treat your pets like our own</p>
+            <p class="top-banner-slogan">We treat your pets like our own</p>
         </div>
-        <nav>
-            <!--navbar for desktop. hide in mobile. green-->
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Clinic</li>
-                <li>Services</li>
-                <li>Educational Information</li>
-                <li>Pet Care Schedule</li>
-                <li>Forms and Policies</li>
-                <li>Links</li>
-                <li>Contact Us</li>
+        <nav class="flex-container nav">
+            
+            <ul class="nav-list">
+                <li class="nav-content">Home</li>
+                <li class="nav-content">About
+                    <ul class="subnav">
+                        <li>Staff</li>
+                        <li>Forms and Policies</li>
+                    </ul>
+                </li>
+                <li class="nav-content">Services
+                    <ul class="subnav">
+                        <li>Vaccinations</li>
+                        <li>Spay and Neuter</li>
+                        <li>Microchipping</li>
+                        <li>Pharmacy</li>
+                        <li>Surgery</li>
+                    </ul>
+                </li>
+                <li class="nav-content">Resources
+                    <ul class="subnav">
+                        <li>Dental Health</li>
+                        <li>Canine Health Schedule</li>
+                        <li>Feline Health Schedule</li>
+                        <li>Canine Reproduction</li>
+                        <li>Additional Resources</li>
+                    </ul>
+                </li>
+                <li class="nav-content">Contact</li>
             </ul>
+            
+            
+            
         </nav>
     </header>
     <main>
@@ -77,15 +96,17 @@
         <section>
             <!--community partners-->
             <h2>Helpful Links</h2>
-            <a href="https://www.alpinevetcare.com/lost-and-found-pet-services">Lost and Found Pet Services</a>
-            <a href="http://www.carecredit.com/"><img src="./images/care_credit.jpg"/></a>
-            <a href="http://public.homeagain.com/"><img src="./images/home-again.jpg" /></a>
-            <a href="http://www.hillspet.com/"><img src="./images/hills.jpg" /></a>
-            <a href="https://www.hillspet.com/science-diet?_gl=1*3us2te*_up*MQ..&gclid=CjwKCAjwg8qzBhAoEiwAWagLrI1kTEeNDuaC1EK1QCsBL6jlwtqpKEUkcaFsPOr_dSpONiLihkWn8hoCBrEQAvD_BwE&gclsrc=aw.ds"><img src="./images/science_diet.jpg" /></a>
+            <div class="flex-container">
+                <a href="https://www.alpinevetcare.com/lost-and-found-pet-services">Lost and Found Pet Services</a>
+                <a href="http://www.carecredit.com/"><img src="./images/care_credit.jpg"/></a>
+                <a href="http://public.homeagain.com/"><img src="./images/home-again.jpg" /></a>
+                <a href="http://www.hillspet.com/"><img src="./images/hills.jpg" /></a>
+                <a href="https://www.hillspet.com/science-diet?_gl=1*3us2te*_up*MQ..&gclid=CjwKCAjwg8qzBhAoEiwAWagLrI1kTEeNDuaC1EK1QCsBL6jlwtqpKEUkcaFsPOr_dSpONiLihkWn8hoCBrEQAvD_BwE&gclsrc=aw.ds"><img src="./images/science_diet.jpg" /></a>
+            </div>
         </section>
         
     </main>
-    <footer>
+    <footer class="flex-container">
         <!-- green. add return to top icon-->
         <p>Copyright ©2024 Alpine Vet Care. All Rights Reserved.</p>
         <!-- facebook icon and link-->
