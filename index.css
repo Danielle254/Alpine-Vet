@@ -1,11 +1,3 @@
-/* 
-brand colors: 
-
-purple #6C318F
-orange #E66B25
-blue #4C9ACF
-gray #595A5C
-*/
 :root {
     --gray: #595A5C;
     --blue: #4C9ACF;
@@ -31,14 +23,12 @@ body {
 .top-banner {
     gap: 2rem;
     flex-direction: row;
-    align-items: flex-end;
-    
+    align-items: flex-end;    
 }
 
 .top-banner img {
     max-height: 100px;
-    width: auto;
-  
+    width: auto;  
 }
 
 .top-banner-slogan {
@@ -46,14 +36,12 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--purple);
-    margin: 0 0 0.5rem 0;
-    
+    margin: 0 0 0.5rem 0;    
 }
 
 .nav {
     background-color: var(--gray);
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .nav-list {
@@ -127,11 +115,9 @@ h1 {
     text-align: center;
 }
 
-
 #banner-image {
     max-width: 100%;
     height: auto;
-
 }
 
 #covid {
@@ -144,7 +130,6 @@ h1 {
 #covid p {
     margin: 0;
 }
-
 
 #welcome {
     padding: 2rem;
@@ -208,6 +193,10 @@ footer p {
 
 footer a {
     color: black;
+}
+
+footer a:hover {
+    color: var(--orange);
 }
 
 #copyright {
