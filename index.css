@@ -105,6 +105,7 @@ body {
     list-style: none;
     padding: 0.5rem 1rem;
     color: var(--gray);
+    margin-bottom: 0;
 }
 
 .subnav li:hover {
@@ -117,6 +118,7 @@ h2 {
     font-weight: bold;
     text-align: center;
     margin: 0;
+    padding-bottom: 1rem;
 }
 
 h1 {
@@ -125,17 +127,27 @@ h1 {
     text-align: center;
 }
 
+
 #banner-image {
     max-width: 100%;
     height: auto;
+
 }
 
 #covid {
-    background-color: var(--orange);
-    text-align: center;
+    background-color: var(--blue);  
     color: black;
-    padding: 1rem;
+    padding: 2rem;
+   
+}
 
+#covid p {
+    margin: 0;
+}
+
+
+#welcome {
+    padding: 2rem;
 }
 
 #services {
@@ -146,11 +158,25 @@ h1 {
 .grid {
     display: grid;
     grid-template-columns: auto auto;
+    padding-left: 0.1vw;
+    justify-items: center;
 }
 
 #services ul li {
     font-weight: bold;
     margin-top: 0.25rem;
+}
+
+#links-section {
+    padding: 2rem;
+}
+
+#links-container {
+    gap: 2rem;
+}
+
+footer {
+    background-color: var(--gray);
 }
 
 
