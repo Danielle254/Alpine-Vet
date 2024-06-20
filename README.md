@@ -7,7 +7,7 @@ This project showcases my ability to use CSS with no libraries or frameworks to 
 alpinevetcare.com
 Also see screenshots in Original Screenshots folder
 
-** Areas for Improvement**
+** Areas for Improvement **
 * Visually, there is inconsistent font size and color
 * Does not follow semantic HTML, so not very accessible
 * Outdated layout
