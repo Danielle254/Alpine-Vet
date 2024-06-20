@@ -17,7 +17,7 @@
         <nav class="flex-container nav">
             
             <ul class="nav-list">
-                <li class="nav-content">Home</li>
+                <li class="nav-content" id="current">Home</li>
                 <li class="nav-content">About
                     <ul class="subnav">
                         <li>Staff</li>
@@ -43,26 +43,23 @@
                     </ul>
                 </li>
                 <li class="nav-content">Contact</li>
-            </ul>
-            
-            
-            
+            </ul>            
         </nav>
     </header>
     <main>
         <section>
             <!--banner image-->
-            <img src="./images/banner image.jpg"/>
-            <h1>Welcome to Alpine Veterinary Care</h1>
+            <img id="banner-image" alt="close up of cat smelling flowers with a side view" src="./images/banner image.jpg"/>            
         </section>
-        <section>
+        <section id="covid">
             <!--COVID message-->
             <h2>Concerning COVID-19</h2>
-            <p>We no longer require face masks to be worn inside the clinic, however, we do recommend wearing one if you are not vaccinated. To check in for your appointment, or if you need to pick up your pet's food or medication, please come on in to our appointment building - we'd love to help you!!
+            <p>We no longer require face masks to be worn inside the clinic, however, we do recommend wearing one if you are not vaccinated. To check in for your appointment, or if you need to pick up your pet's food or medication, please come on in to our appointment building - we'd love to help you!
             </p>
         </section>
-        <section>
+        <section id="welcome">
             <!--summary section-->
+            <h1>Welcome to Alpine Veterinary Care</h1>
             <p>At Alpine Veterinary Care we understand that your pets are an important part of your life. We combine the latest in veterinary medicine and services with old-fashioned loving, considerate and compassionate care for your pet so that they may enjoy an active, healthy lifestyle. We do this by treating your pet’s healthcare as a partnership that closely involves you and the veterinarian. We listen to your concerns and questions, give you more than you expect and provide significant client education to both assist in preventing and also treating issues that may arise. We provide routine preventive care for young, healthy pets; early detection and treatment of disease as your pet ages; and complete medical, dental and surgical care as necessary during his or her lifetime.
             <br>   
             <br>      
@@ -72,26 +69,19 @@
             Dr. Puiggari, Dr. Hagen, and the staff at Alpine Veterinary Care believe that veterinary medicine is not just a job but a way of life. We treat your animals like our own. We strive to provide you with quality healthcare, excellent client service and value for your money.
             </p>
         </section>
-        <section>
-            <!--news & info section-->
-            <h2>News and Information: Ways to Keep Your Pet Protected this Winter</h2>
-            <p>It is important to keep your pets inside with you and your family.  Dogs are the happiest when taken out frequently for walks and exercise and kept inside the rest of the time.  Animals should not be left outdoors when temperatures drop.  Even cats who normally spend their time outdoors during the other months should be provided shelter or brought indoors.
-            <br>
-            <br>
-            If your dog is outdoors most of the day, it is important to have a well-protected area that is dry, draft-free and large enough for them to move comfortably around, but small enough to hold in body heat.  The floor should be covered with cedar shavings or straw and should be raised a few inches off the ground.  A waterproof burlap or heavy plastic should be used to cover the doorway.
-            <br>
-            <br>
-            If your pet spends more time outside, you should feed them more in the winter because it takes more energy to keep warm.  The water dish should be checked routinely to make sure water is fresh and not frozen.  A metal dish should not be used because when the temperature gets low, your pet’s tongue can stick and freeze to the metal.
-            </p>
-            <h3>Bundle Up</h3>
-            <p>Windchill can be life-threatening to your pet, no matter what the temperature.  During cold snaps, any exposed skin on noses, ears and paw pads are at risk for frostbite and hypothermia.  Short-haired dogs may benefit from wearing a sweater, even during short walks, to prevent frostbite or hypothermia.
-            <br>
-            <br>
-            The paw pads of your pet can become irritated after walking on rock salt and other chemicals used to melt snow and ice.  Use a damp towel to wipe the paws before your pet starts to lick their feet and their mouth becomes irritated.  “Booties” are a good way to keep paws clean, dry, and protected against ice.
-            </p>
-            <h3>Be Aware of Common Poisons</h3>
-            <p>Antifreeze has a sweet taste that attracts animals, but it’s a deadly poison.  If there is any antifreeze that has spilled, wipe it up immediately and keep it out of reach. 
-            </p>
+        <section id="services">
+            <!--services section-->
+            <h2>We Offer a Wide Range of Services</h2>
+            <div class="grid">
+                <ul>
+                    <li>Vaccinations</li>
+                    <li>Spay and Neuter</li>
+                    <li>Microchipping</li>
+                    <li>Pharmacy</li>
+                    <li>Surgery</li>
+                </ul>
+                <img src="./images/services image.jpg" alt="sheltie dog walks towards camera looking down" id="services-image">
+            </div>
         </section>
         <section>
             <!--community partners-->
@@ -102,12 +92,13 @@
                 <a href="http://public.homeagain.com/"><img src="./images/home-again.jpg" /></a>
                 <a href="http://www.hillspet.com/"><img src="./images/hills.jpg" /></a>
                 <a href="https://www.hillspet.com/science-diet?_gl=1*3us2te*_up*MQ..&gclid=CjwKCAjwg8qzBhAoEiwAWagLrI1kTEeNDuaC1EK1QCsBL6jlwtqpKEUkcaFsPOr_dSpONiLihkWn8hoCBrEQAvD_BwE&gclsrc=aw.ds"><img src="./images/science_diet.jpg" /></a>
+                <p>More Educational Resources</p>
             </div>
         </section>
         
     </main>
     <footer class="flex-container">
-        <!-- green. add return to top icon-->
+      
         <p>Copyright ©2024 Alpine Vet Care. All Rights Reserved.</p>
         <!-- facebook icon and link-->
         <div>
