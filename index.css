@@ -118,7 +118,7 @@ h2 {
     font-weight: bold;
     text-align: center;
     margin: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 h1 {
@@ -167,6 +167,12 @@ h1 {
 #services ul li {
     font-weight: bold;
     margin-top: 0.25rem;
+}
+
+#services img {
+    border: 1px solid var(--gray);
+    border-radius: 0.20rem;
+    box-shadow: 0 4px 2px -2px gray; 
 }
 
 #links-section {
