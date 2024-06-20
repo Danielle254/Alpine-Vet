@@ -171,17 +171,37 @@ h1 {
 
 #links-section {
     padding: 2rem;
-    box-shadow: 0 4px 2px -2px gray;
-    
+    box-shadow: 0 4px 2px -2px gray;    
 }
 
 #links-container {
     gap: 2rem;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 footer {
     background-color: var(--gray);
+    text-align: center;
+}
+
+#footer-contact {
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+footer p {
+    margin: 0.4rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer a {
+    color: black;
 }
 
 
