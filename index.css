@@ -7,13 +7,16 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;    
     max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px 0px var(--gray);
+
 }
 
 .flex-container {
@@ -36,18 +39,25 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--purple);
-    margin: 0 0 0.5rem 0;    
+    margin: 0 0 0.5rem 0; 
+    display: none;   
+}
+
+.mobile-menu {
+    background-color: var(--gray);
+    
 }
 
 .nav {
     background-color: var(--gray);
     width: 100%;    
+    
 }
 
 .nav-list {
     display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 2rem;
     margin: 0 2rem;
     color: white;
@@ -101,6 +111,13 @@ body {
     transition: color 200ms ease-in-out;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 h2 {
     font-size: 1.5rem;;
     font-weight: bold;
@@ -109,22 +126,19 @@ h2 {
     padding-bottom: 2rem;
 }
 
-h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-}
+
 
 #banner-image {
     max-width: 100%;
-    height: auto;
+    display: block;
+    
 }
 
 #covid {
     background-color: var(--blue);  
     color: black;
     padding: 2rem;
-    box-shadow: 0 4px 2px -2px gray;
+    
 }
 
 #covid p {
@@ -133,13 +147,13 @@ h1 {
 
 #welcome {
     padding: 2rem;
-    box-shadow: 0 4px 2px -2px gray;
+    
 }
 
 #services {
     background-color: var(--blue);
     padding: 2rem;
-    box-shadow: 0 4px 2px -2px gray;
+    
 }
 
 .grid {
@@ -157,12 +171,12 @@ h1 {
 #services img {
     border: 1px solid var(--gray);
     border-radius: 0.20rem;
-    box-shadow: 0 4px 2px -2px gray; 
+  
 }
 
 #links-section {
     padding: 2rem;
-    box-shadow: 0 4px 2px -2px gray;    
+     
 }
 
 #links-container {
@@ -170,11 +184,13 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: stretch;
+    
 }
 
 footer {
     background-color: var(--gray);
     text-align: left;
+    padding: 1rem;
 }
 
 #footer-contact {
@@ -207,5 +223,19 @@ footer a:hover {
     max-width: 25px;
 }
 
+#map {
+    border: black 0.5px solid;
+    border-radius: 0.2rem;
+    box-shadow: 0 4px 2px -2px darkgray; 
+}
 
 
+@media only screen and (min-width: 650px) {
+    .top-banner-slogan {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}
