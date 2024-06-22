@@ -196,9 +196,18 @@ footer {
     justify-content: space-evenly;
     align-items: stretch;
     flex-wrap: wrap;
+    
+}
+
+#footer-contact div {
+    padding: 1rem;
 }
 
 footer p {
+    margin: 0 0 0.25rem 0;
+}
+
+footer h4 {
     margin: 0 0 0.25rem 0;
 }
 
@@ -212,6 +221,7 @@ footer a {
 
 footer a:hover {
     color: var(--orange);
+    transition: opacity 200ms ease-in-out;
 }
 
 #copyright {
@@ -220,6 +230,7 @@ footer a:hover {
 
 #facebook {
     max-width: 25px;
+   
 }
 
 #map {
@@ -237,4 +248,40 @@ footer a:hover {
     .mobile-menu {
         display: none;
     }
+
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .grid {
+        grid-template-columns: auto;
+        gap: 1rem;
+    }
+
+    .top-banner img {
+        width: 60%;
+    }
+
+    #services img {
+        width: 80%;
+    }
+
+    #map {
+        width: 90%;
+        
+    }
+
+    #links-container {
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+
+    #footer-contact {
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: left;
+       
+    }
+    
 }
