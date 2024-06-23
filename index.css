@@ -140,6 +140,11 @@ nav {
     display: block;
 }
 
+.mobile-submenu:checked ~ .down-arrow .submenu-line {
+    transform: rotate(225deg);
+    left: 10px;
+}
+
 .mobile-menu {
     display: none; 
 }
