@@ -44,6 +44,12 @@ h2 {
 
 /* Sections */
 
+
+.top-banner img {        
+    width: 60%;
+    height: auto;
+}
+
 .top-banner-slogan {
     display: none;
 }
@@ -383,32 +389,36 @@ footer a {
 }
 
 @media only screen and (max-width: 450px) {
+    
+    
+    #covid, #welcome, #services, #links-section{
+        padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
     .services-grid {
         grid-template-columns: auto;
         gap: 1rem;
-    }
-
-    .top-banner img {
-        width: 60%;
     }
 
     #services img {
         width: 80%;
     }
 
-    #map {
-        width: 90%;        
-    }
 
     #links-container {
         display: grid;
         grid-template-columns: auto;
         justify-items: center;
-    }
+    }    
+    
 
     #footer-contact {
         display: grid;
         grid-template-columns: auto;
         justify-items: left;       
     }    
+
+    #map {
+        width: 90%;        
+    }
 }
