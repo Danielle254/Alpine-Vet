@@ -59,10 +59,13 @@ nav {
 
 .nav-list li {
     display: block;
-    padding: 12px;
+    padding: 15px;
     color: var(--white);
+    cursor: pointer;
+    font-size: 1.5rem;
 }
 
+/* mobile hamburger icon - checkbox hack */
 .hamb {
     cursor: pointer;
     position: absolute;
@@ -106,6 +109,7 @@ nav {
     cursor: pointer;    
 }
 
+/* submenu down arrow styling - checkbox hack */
 .submenu-line {
     background: var(--white);
     display: inline-block;
@@ -170,8 +174,7 @@ body:has(.mobile-menu:checked) {
 
 #banner-image {
     max-width: 100%;
-    display: block;
-    
+    display: block;    
 }
 
 #covid {
@@ -301,9 +304,9 @@ footer a:hover {
     }
 
     nav {
-        background-color: var(--gray);
-        width: 100%;   
-        
+        visibility: visible; 
+        height: auto;
+        position: relative;
     }
     
     .nav-list {
@@ -315,11 +318,11 @@ footer a:hover {
         width: 100%;
     }
     
-    .nav-content {
+    .nav-list li {
+        font-size: 1rem;
         list-style: none;
         position: relative;
-        padding: 1.5rem 1rem;
-        cursor: pointer;
+        padding: 1rem;        
         font-weight: bold;
     }
     
@@ -359,6 +362,10 @@ footer a:hover {
         color: var(--blue);
         transition: color 200ms ease-in-out;
     }    
+
+    #banner-image {
+        position: relative;
+    }
 }
 
 @media only screen and (max-width: 450px) {
