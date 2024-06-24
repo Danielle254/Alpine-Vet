@@ -65,7 +65,7 @@ nav {
 
 .nav-list li {
     display: block;
-    padding: 15px;
+    padding: 1rem;
     color: var(--white);
     cursor: pointer;
     font-size: 1.5rem;
@@ -268,7 +268,7 @@ footer a {
 }
 
 #facebook {
-    max-width: 25px;   
+    max-width: 1.56rem;   
 }
 
 #map {
