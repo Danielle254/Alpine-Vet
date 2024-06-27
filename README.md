@@ -42,7 +42,7 @@ The checkbox hack utilizes the "checked" vs "not checked" property of a checkbox
 * Creating a 2-layer menu
 It was intersting to learn different methods of creating a submenu for both dektop and mobile views. This is a very common feature in older or complex business websites.
 
-### Future Enhancements
+### Future Enhancement Ideas
 * Site Menu in Footer. The footer is already quite full. I might make it it's own section and add a site menu to the actual footer on the desktop version.
 * It would be fun to do an entire website overhaul and build the other pages.
 * Add JavaScript for more simplified functionality of the navbar.
