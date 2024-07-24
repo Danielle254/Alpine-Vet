@@ -4,7 +4,7 @@ I took the website of a local business that I frequent, Alpine Vet Care in Misso
 This project showcases my ability to use CSS with no libraries or frameworks to create a responsive webpage for desktop and mobile. 
 
 ### Original State
-[alpinevetcare.com](alpinevetcare.com)  
+[https://alpinevetcare.com](https://alpinevetcare.com)  
 Also see screenshots in Original Screenshots folder
 
 ### See New Site
